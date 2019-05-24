@@ -1,4 +1,4 @@
-#! @SHELL@
+#!/bin/sh
 #
 # patch inetd.conf and services
 # originally by Axel Zinser (fifi@hiss.han.de)

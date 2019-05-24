@@ -1,4 +1,4 @@
-#! @SHELL@
+#!/bin/sh
 #
 # check tapelist against database and vice versa
 #

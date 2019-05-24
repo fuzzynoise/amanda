@@ -1,4 +1,4 @@
-#!@SHELL@
+#!/bin/sh
 #
 # Original wrapper by Paul Bijnens
 #

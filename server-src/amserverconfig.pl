@@ -33,8 +33,8 @@ use Amanda::Constants;
 
 my $confdir="$CONFIG_DIR";
 my $tmpdir="$AMANDA_DBGDIR";
-my $amandahomedir="$localstatedir/lib/amanda";
-my $templatedir="$amdatadir/template.d"; #rpm install template files here
+my $amandahomedir="$localstatedir/amanda";
+my $templatedir="${amdatadir}-common/template.d"; #rpm install template files here
 my $def_tapedev="file:$amandahomedir/vtapes";
 
 my $amanda_user="$Amanda::Constants::CLIENT_LOGIN";
@@ -417,7 +417,7 @@ sub create_customconf{
 
 
 sub check_xinetd{
-    &mprint ("/var/lib/amanda/example/xinetd.amandaserver contains the latest Amanda server daemon configuration.\n");
+    &mprint ("/usr/share/doc/amanda-server/examples/xinetd.amandaserver contains the latest Amanda server daemon configuration.\n");
     &mprint ("Please merge it to /etc/xinetd.d/amandaserver.\n");
 }
 

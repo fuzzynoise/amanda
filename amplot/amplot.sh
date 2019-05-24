@@ -1,4 +1,4 @@
-#!@SHELL@
+#!/bin/sh
 # Amanda, The Advanced Maryland Automatic Network Disk Archiver
 # Copyright (c) 1992-1998 University of Maryland at College Park
 # Copyright (c) 2007-2012 Zmanda, Inc.  All Rights Reserved.
